@@ -1,2 +1,2 @@
 # uploadimg
-upload image file
+上傳圖檔，並檢查圖檔長寬
