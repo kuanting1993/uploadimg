@@ -4,7 +4,7 @@ $action=htmlspecialchars(trim($_POST["action"]),ENT_QUOTES);
 
 switch($action){
 	case 'ImageUpload':
-		
+		//上傳檔案
 		$fileCount = count($_FILES['file']['name']);
 		for($i=0; $i<$fileCount; $i++){ 
 			if ($_FILES['file']['error'][$i] === UPLOAD_ERR_OK){
